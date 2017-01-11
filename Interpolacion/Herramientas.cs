@@ -9,6 +9,18 @@ namespace Interpolacion
 {
     class Herramientas
     {
+        public static List<int> Arange(int start, int end, int salto)
+        {
+            List<int> arange = new List<int>();
+            while (end > start)
+            {
+                arange.Add(start);
+                start += salto;
+            }
+            return arange;
+        }
+
+
         /// <summary>
         /// Lee un archivo y recupera los datos de las posiciones y los datos necesarios para hacer
         /// los cálculos

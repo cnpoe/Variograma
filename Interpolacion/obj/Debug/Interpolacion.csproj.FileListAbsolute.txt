@@ -4,3 +4,9 @@ C:\Users\lmorales\Desktop\Variograma\Variograma\Interpolacion\bin\Debug\Interpol
 C:\Users\lmorales\Desktop\Variograma\Variograma\Interpolacion\obj\Debug\Interpolacion.csprojResolveAssemblyReference.cache
 C:\Users\lmorales\Desktop\Variograma\Variograma\Interpolacion\obj\Debug\Interpolacion.exe
 C:\Users\lmorales\Desktop\Variograma\Variograma\Interpolacion\obj\Debug\Interpolacion.pdb
+D:\kriging\Variograma\Interpolacion\bin\Debug\Interpolacion.exe.config
+D:\kriging\Variograma\Interpolacion\obj\Debug\Interpolacion.exe
+D:\kriging\Variograma\Interpolacion\obj\Debug\Interpolacion.pdb
+D:\kriging\Variograma\Interpolacion\bin\Debug\Interpolacion.exe
+D:\kriging\Variograma\Interpolacion\bin\Debug\Interpolacion.pdb
+D:\kriging\Variograma\Interpolacion\obj\Debug\Interpolacion.csprojResolveAssemblyReference.cache
