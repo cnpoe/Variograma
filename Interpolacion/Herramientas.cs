@@ -22,7 +22,7 @@ namespace Interpolacion
             string line;
             System.IO.StreamReader sr = new System.IO.StreamReader(fileName);
             int ncols;
-            double[,] data;
+            List<List<double>> data = new List<List<double>>();
 
             Dictionary<string, object> file = new Dictionary<string, object>();
 
@@ -33,6 +33,7 @@ namespace Interpolacion
             for (int i = 0; i < columns.Length; i++)
             {
                 columns[i] = Regex.Replace(sr.ReadLine(), @"\t|\n|\r", "");
+                data.Add(new List<double>());
             }
 
             file["Columns"] = columns;
@@ -42,15 +43,15 @@ namespace Interpolacion
                 datas.Add(line);
             }
 
-            data = new double[datas.Count, ncols];
-
             for (int i = 0; i < datas.Count; i++)
             {
-                int j = 0;
-                foreach (var num in datas[i].Split(' '))
+                var dts = datas[i].Split(' ');
+
+                for (int j = 0; j < dts.Length; j++)
                 {
-                    data[i, j++] = Double.Parse(num);
+                    data[j].Add(Double.Parse(dts[j]));
                 }
+
             }
             file["Data"] = data;
             return file;
