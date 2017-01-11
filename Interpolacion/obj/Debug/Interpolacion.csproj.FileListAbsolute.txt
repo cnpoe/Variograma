@@ -10,3 +10,5 @@ D:\kriging\Variograma\Interpolacion\obj\Debug\Interpolacion.pdb
 D:\kriging\Variograma\Interpolacion\bin\Debug\Interpolacion.exe
 D:\kriging\Variograma\Interpolacion\bin\Debug\Interpolacion.pdb
 D:\kriging\Variograma\Interpolacion\obj\Debug\Interpolacion.csprojResolveAssemblyReference.cache
+D:\kriging\Variograma\Interpolacion\bin\Debug\MathNet.Numerics.dll
+D:\kriging\Variograma\Interpolacion\bin\Debug\MathNet.Numerics.xml
